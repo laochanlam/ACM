@@ -12,15 +12,15 @@ void DFS(int &n,int i,int j){
         if (ans[i-1][j-1] == '1') DFS(n,i-1,j-1);
     if (j-1 >= 0)
         if (ans[i][j-1] =='1') DFS(n,i,j-1);
-    if (j-1 >= 0 && i+1 <= n)
+    if (j-1 >= 0 && i+1 < n)
         if (ans[i+1][j-1] == '1') DFS(n,i+1,j-1);
-    if (i+1 <= n)
+    if (i+1 < n)
         if (ans[i+1][j] =='1') DFS(n,i+1,j);
-    if (i+1 <= n && j+1 <= n)
+    if (i+1 < n && j+1 < n)
         if (ans[i+1][j+1] == '1') DFS(n,i+1,j+1);
-    if (j+1 <= n)
+    if (j+1 < n)
         if (ans[i][j+1] =='1') DFS(n,i,j+1);
-    if (i-1 >= 0 && j+1 <= n)
+    if (i-1 >= 0 && j+1 < n)
         if (ans[i-1][j+1] == '1') DFS(n,i-1,j+1);
     if (i-1 >= 0)
         if (ans[i-1][j] =='1') DFS(n,i-1,j);
