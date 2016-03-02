@@ -47,7 +47,7 @@ int main(){
                 }
             }
         k++;
-        cout<<"Image number "<<k<<" contains "<<count<<" war eagles."<<endl; 
+        cout<<"Image number "<<k<<" contains "<<count<<" war eagles."<<endl;
         count = 0;
     }
 
