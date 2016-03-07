@@ -1,4 +1,4 @@
-ccccccccccccccccccc#include<iostream>
+#include<iostream>
 #include<stack>
 #include<cstdio>
 #include<cstdlib>
@@ -43,11 +43,11 @@ int main(){
             n--;
             if (k !=0 || !stk.empty())
             {
-                cout << "No" << endl;
+                cout << "NO" << endl;
             }
             else
             {
-                cout << "Yes" << endl;
+                cout << "YES" << endl;
             }
             k = 0;
         }
