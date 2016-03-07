@@ -44,11 +44,11 @@ int main(){
             n--;
             if (k !=0 || !stk.empty())
             {
-                cout << "NO" << endl;
+                cout << "No" << endl;
             }
             else
             {
-                cout << "YES" << endl;
+                cout << "Yes" << endl;
             }
             k = 0;
         }
