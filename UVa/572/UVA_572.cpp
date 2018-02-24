@@ -10,12 +10,7 @@ bool visit[100][100];
 int m, n;
 
 void dfs(int i ,int j) {
-    // for (int x = 0; x < n; x++) {
-    //     cout << endl;
-    //     for (int y = 0; y < m; y++)
-    //         cout << visit[x][y];
-    // }
-    // cout << endl;
+
     for (int dx = -1; dx <= 1; dx++)
         for (int dy = -1; dy <= 1; dy++) {
             if (!(dx == 0 && dy == 0)) // cannot be itself
@@ -40,11 +35,6 @@ int main(){
             for (int j = 0; j < m; j++)
                 cin >> a[i][j];
 
-        // for (int i = 0; i < n; i++) {
-        //     printf("\n");
-        //     for (int j = 0; j < m; j++)
-        //         cout << a[i][j];
-        // }
         memset(visit, 0, sizeof(visit));
 
         for (int i = 0; i < n; i++)

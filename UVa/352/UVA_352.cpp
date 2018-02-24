@@ -30,11 +30,10 @@ int main(){
     int i,j,n;
     int k=0;
     int count = 0;
-    //freopen("input.in","rt",stdin);
+
     while (scanf("%d\n",&n) != EOF)
     {
         for (i=0;i<n;i++)
-            //for (j=0;j<n;j++)
                 fgets(ans[i],1024,stdin);
 
         for (i=0;i<n;i++)
